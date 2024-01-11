@@ -1,0 +1,15 @@
+[submodule "ac-library"]
+	path = ac-library
+	url = https://github.com/atcoder/ac-library.git
+[submodule "library/rainbou"]
+	path = library/rainbou
+	url = https://github.com/rainbou-kpr/library.git
+[submodule "library/KowerKoint"]
+	path = library/KowerKoint
+	url = https://github.com/KowerKoint/library.git
+[submodule "library/ei1333"]
+	path = library/ei1333
+	url = https://github.com/ei1333/library.git
+[submodule "library/drken"]
+	path = library/drken
+	url = https://github.com/drken1215/algorithm.git
