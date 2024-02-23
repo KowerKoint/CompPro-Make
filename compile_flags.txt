@@ -4,5 +4,5 @@
 -I./library
 -I./ac-library
 -DDEBUG
--std=gnu++17
+-std=gnu++20
 -O2

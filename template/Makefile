@@ -5,9 +5,9 @@ ifndef CXXFLAGS
 		DEBUG_FLAGS = -g -ftrapv -D DEBUG -D _GLIBCXX_DEBUG
 	endif
 	ifdef RELEASE
-		CXXFLAGS = -std=gnu++17 -Wall -Wextra -O2 -I ../library -I ../ac-library
+		CXXFLAGS = -std=gnu++20 -Wall -Wextra -O2 -I ../library -I ../ac-library
 	else
-		CXXFLAGS = -std=gnu++17 -Wall -Wextra -O2 -I ../library -I ../ac-library $(DEBUG_FLAGS)
+		CXXFLAGS = -std=gnu++20 -Wall -Wextra -O2 -I ../library -I ../ac-library $(DEBUG_FLAGS)
 	endif
 endif
 download:
